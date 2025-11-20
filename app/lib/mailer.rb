@@ -5,4 +5,9 @@ module MailerAPI
     # calls mailer API
     # ...
   end
+
+  def self.send_verification_email(user)
+    # calls mailer API to send email verification
+    # ...
+  end
 end
